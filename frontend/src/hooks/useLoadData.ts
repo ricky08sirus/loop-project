@@ -10,7 +10,7 @@ export function useLoadData() {
 
 
   useEffect(() => {
-    axios.get("http://localhost:4000/api/data")
+    axios.get("https://loop-project-pxri.onrender.com/api/data")
       .then((res) => {
         setRawData(res.data);
       })
