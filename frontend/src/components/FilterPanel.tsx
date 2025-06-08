@@ -1,4 +1,5 @@
-import React, { useMemo } from "react";
+import * as React from "react"; 
+import { useMemo } from "react";
 import type { DataRow } from "../types/data.types";
 
 type Props = {

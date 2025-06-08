@@ -1,4 +1,6 @@
-import React, { useMemo } from "react";
+// import React,  {useMemo } from "react";
+import * as React from "react";
+import { useMemo } from "react";
 import type { DataRow } from "../types/data.types";
 import { useFilters } from "../components/FilterContext";
 

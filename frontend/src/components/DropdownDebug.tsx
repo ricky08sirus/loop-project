@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from "react";
+import * as React from "react"; 
+import { useEffect, useState } from "react";
 import type { DataRow } from "../types/data.types";
 
 type Props = {

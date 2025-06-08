@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from "react";
 import { useFilters } from "../components/FilterContext";
 
 type Props = {
